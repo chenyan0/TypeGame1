@@ -1,0 +1,125 @@
+html,body{
+    width: 100%;
+    height:100%;
+    overflow: hidden;
+    background: url("../img/bj.jpg");
+}
+.panel{
+    width:100%;
+    height: 30px;
+    position: fixed;
+    font-size: 20px;
+    color: #fff;
+    z-index: 10;
+    bottom:0;
+    right:0px;
+    bottom: 15px;
+}
+
+.die{
+    width: 116px;
+    height: 49px;
+    float: left;
+    text-align: center;
+    line-height: 46px;
+    background: url("../img/life.png")no-repeat center center;
+    background-size: cover;
+    margin-right: 50px;
+}
+.die span{
+     margin-left:38px;
+ }
+.score span{
+    margin-left: 38px;
+}
+.score{
+    width: 116px;
+    height: 49px;
+    margin-right: 100px;
+    line-height: 46px;
+    float: left;
+    text-align: center;
+    margin-right: 50px;
+    background-size: cover;
+    background: url("../img/fenshu.png") no-repeat center center;
+}
+.select{
+    width:  116px;
+    height: 49px;
+    float: left;
+
+    line-height: 30px;
+    background: url("../img/guanqia.png");
+    background-size: cover;
+}
+.win{
+    width:312px;
+    height:143px;
+    position: relative;
+    background: url("../img/win.png") center center;
+    margin:100px auto 30px;
+    z-index: 10;
+}
+.fail{
+    width:312px;
+    height:154px;
+    position: relative;
+    background: url("../img/fail.png") center center;
+    margin:100px auto 30px;
+    z-index: 10;
+}
+.next,.exit,.again{
+    width: 60px;
+    height: 123px;
+    cursor: pointer;
+}
+.next,.again{
+    position: absolute;
+    left: 40%;
+    top:280px;
+}
+.again{
+    background: url("../img/again.png");
+}
+.next{
+    background: url("../img/next.png");
+}
+.exit{
+    position: absolute;
+    left: 57%;
+    top:280px;
+    background: url("../img/exit.png");
+}
+select{
+    border: none;
+    background: none;
+    margin-left: 5px;
+    margin-top: 15px;
+
+}
+option{
+    background: none;
+}
+.panel1{
+    position: absolute;
+    margin: 0 auto;
+    width: 100%;
+}
+.start,.stop,.continue,.num{
+    width: 83px ;
+    height: 105px;
+    float: left;
+    cursor: pointer;
+}
+.start{
+    background: url("../img/start.png");
+}
+.stop{
+    background: url("../img/stop.png");
+}
+.num{
+    line-height: 108px;
+    text-align: center;
+    background:url("../img/num.png");
+    font-size: 20px;
+}
